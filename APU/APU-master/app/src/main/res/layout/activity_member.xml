@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Member"
+    android:background="@drawable/member">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/aa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:background="#000000FF" />
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="40dp"
+            android:background="#000000FF" />
+
+        <Button
+            android:id="@+id/recodcamera"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="225dp"
+            android:background="#000000FF" />
+
+        <Button
+            android:id="@+id/motionvoice"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="275dp"
+            android:background="#000000FF" />
+
+        <Button
+            android:id="@+id/care"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="315dp"
+            android:background="#000000FF" />
+
+        <Button
+            android:id="@+id/light"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="370dp"
+            android:background="#000000FF" />
+
+        <Button
+            android:id="@+id/langua"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="415dp"
+            android:background="#000000FF" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

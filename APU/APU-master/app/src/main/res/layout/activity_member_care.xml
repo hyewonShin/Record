@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".member_care"
+    android:background="@drawable/member_care">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="#000000FF"
+        android:layout_marginTop="30dp"
+        />
+
+        <EditText
+            android:layout_width="335dp"
+            android:layout_height="36dp"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="395dp"
+            android:layout_marginLeft="35dp"
+            />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb_selector"
+            android:layout_marginTop="465dp"
+            android:layout_marginLeft="295dp"
+            android:switchMinWidth="75dp" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
